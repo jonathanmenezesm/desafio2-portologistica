@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  border: solid black;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+}
+
+h2 {
+  border: solid purple;
+  width: 10%;
+}
+
+nav {
+  border: solid black;
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid tomato;
+  list-style: none;
+}
+
+@media (min-width: 201px) and (max-width: 500px) {
+  header {
+    height: 30vh;
+  }
+  h2 {
+    display: none;
+  }
+  ul {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
