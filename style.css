@@ -23,11 +23,13 @@ ul {
   justify-content: space-evenly;
   list-style: none;
 }
+
 ul li a {
   text-decoration: none;
   color: black;
   font-size: 20px;
 }
+
 ul #contato {
   font-family: oswald;
   border: solid;
@@ -38,46 +40,45 @@ ul #contato {
 
 .background {
   display: flex;
-  justify-content: center;
   align-items: center;
   background-image: url(imagens/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40vh;
+  height: 65vh;
+  border: 1px;
 }
-
-.background h1 {
+.background article {
   display: flex;
+  align-items: flex-start;
+  padding-left: 8%;
+  flex-direction: column;
   color: white;
   font-family: Oswald;
-  font-size: 80px;
+  font-size: 76px;
+  gap: 15px;
 }
-
 .background h2 {
   color: white;
   font-weight: lighter;
   font-size: 25px;
-  margin-bottom: 6px;
 }
-
 .background p {
   color: white;
   background-color: rgb(0, 22, 223);
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 12vw;
-  height: 40px;
-  border-radius: 5px;
-  font-size: 25px;
+  width: 10vw;
+  height: 35px;
+  font-size: 20px;
 }
 
 .container-gestao {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  margin: 200px 0 200px 0;
   height: 100vh;
 }
-
 .container-gestao article {
   display: flex;
   flex-direction: column;
@@ -88,29 +89,130 @@ ul #contato {
   width: 600px;
   height: 450px;
   margin: 50px;
+  gap: 30px;
+  margin-top: 15%;
 }
-.container-gestao article h2 {
+.container-gestao h2 {
   margin-top: 30px;
   color: rgb(0, 23, 233);
   font-size: 1.5rem;
   font-weight: 500;
+  text-align: left;
 }
-.container-gestao article h3 {
-  margin: 26px;
-  font-size: 2rem;
+.container-gestao h3 {
+  text-align: left;
+  font-size: 1.8rem;
 }
-.container-gestao article #contato {
-  margin-top: 15px;
+.container-gestao p {
+  text-align: left;
+  font-size: 1.6rem;
+  width: 40vw;
+}
+.container-gestao #contato {
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;
   color: rgb(0, 23, 233);
 }
-
-.container-gestao p {
-  font-size: 1.6rem;
+.container-gestao #img-gestao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-gestao #img-gestao img {
+  width: 550;
+  height: 700px;
+  margin-bottom: 20px;
 }
 
-.container-gestao img {
+.container-solucoes {
   display: flex;
-  width: 500px;
-  height: 650px;
-  margin: 40px;
+  flex-direction: column;
+  background: rgb(216, 216, 216);
+}
+.container-solucoes h2 {
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
+.container-solucoes h3 {
+  display: flex;
+  justify-content: center;
+}
+.container-solucoes #pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container-solucoes #pics .galeria {
+  display: flex;
+  align-items: center;
+  font-family: oswald;
+}
+.container-solucoes #pics #img1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-around;
+  margin: 30px;
+  width: 30%;
+}
+.container-solucoes #pics #img1 img {
+  width: 100%;
+  height: 100%;
+}
+.container-solucoes #pics #img1 figcaption {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+.container-solucoes #pics #img2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+}
+.container-solucoes #pics #img2 img {
+  width: 100%;
+  height: 100%;
+}
+.container-solucoes #pics #img2 figcaption {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+.container-solucoes #pics #img3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-around;
+  margin: 30px;
+  width: 30%;
+}
+.container-solucoes #pics #img3 img {
+  width: 100%;
+  height: 100%;
+}
+.container-solucoes #pics #img3 figcaption {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  width: 80%;
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */
