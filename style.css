@@ -10,8 +10,10 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 15vh;
-  margin: 0;
+  height: 13vh;
+}
+header h1 {
+  font-size: 50px;
 }
 
 nav {
@@ -22,20 +24,21 @@ ul {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
-}
-
-ul li a {
-  text-decoration: none;
   color: black;
+}
+ul li {
+  text-decoration: none;
+}
+ul a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
   font-size: 20px;
 }
-
-ul #contato {
-  font-family: oswald;
-  border: solid;
-  margin: 1px;
-  padding: 5px 10px 5px 10px;
-  font-size: 24px;
+ul a:hover {
+  color: black;
+  border: solid black 3px;
+  padding: 7px;
 }
 
 .background {
@@ -46,21 +49,22 @@ ul #contato {
   background-size: cover;
   height: 65vh;
   border: 1px;
+  margin-bottom: 10%;
 }
 .background article {
   display: flex;
   align-items: flex-start;
-  padding-left: 8%;
   flex-direction: column;
+  margin-left: 5%;
   color: white;
   font-family: Oswald;
   font-size: 76px;
-  gap: 15px;
 }
 .background h2 {
   color: white;
   font-weight: lighter;
-  font-size: 25px;
+  font-size: 1.7rem;
+  font-weight: normal;
 }
 .background p {
   color: white;
@@ -69,14 +73,17 @@ ul #contato {
   align-items: center;
   text-align: center;
   width: 10vw;
-  height: 35px;
-  font-size: 20px;
+  height: 5vh;
+  font-size: 1.3rem;
+}
+.background p:hover {
+  text-decoration: underline;
+  background-color: rgb(0, 35, 224);
 }
 
 .container-gestao {
   display: flex;
   justify-content: space-around;
-  margin: 200px 0 200px 0;
   height: 100vh;
 }
 .container-gestao article {
@@ -128,7 +135,10 @@ ul #contato {
 .container-solucoes {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background: rgb(216, 216, 216);
+  height: 110vh;
 }
 .container-solucoes h2 {
   display: flex;
@@ -158,6 +168,7 @@ ul #contato {
   justify-content: space-around;
   margin: 30px;
   width: 30%;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.6);
 }
 .container-solucoes #pics #img1 img {
   width: 100%;
@@ -181,6 +192,7 @@ ul #contato {
   margin: 30px;
   width: 30%;
   background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.6);
 }
 .container-solucoes #pics #img2 img {
   width: 100%;
@@ -200,10 +212,11 @@ ul #contato {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(255, 255, 255);
   justify-content: space-around;
   margin: 30px;
   width: 30%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.6);
 }
 .container-solucoes #pics #img3 img {
   width: 100%;

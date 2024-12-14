@@ -7,12 +7,14 @@
 }
 
 header {
+    h1 {
+        font-size: 50px;
+    }
     background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 15vh;
-    margin: 0;
+    height: 13vh;
 }
 
 nav {
@@ -23,21 +25,30 @@ ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-}
-
-ul li a {
-    text-decoration: none;
     color: black;
-    font-size: 20px;
+
+    li {
+        text-decoration: none;
+    }
+    
+    a {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 20px;
+        
+    }
+    a:hover {
+        color: black;
+        border: solid black 3px;
+        padding: 7px;
+    }
+    
 }
 
-ul #contato {
-    font-family: oswald;
-    border: solid;
-    margin: 1px;
-    padding: 5px 10px 5px 10px;
-    font-size: 24px;
-}
+
+
+
 
 .background {
     display: flex;
@@ -47,23 +58,24 @@ ul #contato {
     background-size: cover;
     height: 65vh;
     border: 1px;
+    margin-bottom: 10%;
 
     article {
         display: flex;
         align-items: flex-start;
-        padding-left: 8%;
         flex-direction: column;
+        margin-left: 5%;
         color: white;
         font-family: Oswald;
         font-size: 76px;
-        gap: 15px;
 
     }
 
     h2 {
         color: white;
         font-weight: lighter;
-        font-size: 25px;
+        font-size: 1.7rem;
+        font-weight: normal;
     }
 
     p {
@@ -73,8 +85,13 @@ ul #contato {
         align-items: center;
         text-align: center;
         width: 10vw;
-        height: 35px;
-        font-size: 20px;
+        height: 5vh;
+        font-size: 1.3rem;
+    }
+    
+    p:hover {
+        text-decoration: underline;
+        background-color: rgb(0, 35, 224);
     }
 }
 
@@ -83,7 +100,6 @@ ul #contato {
 .container-gestao {
     display: flex;
     justify-content: space-around;
-    margin: 200px 0 200px 0;
     height: 100vh;
 
     article {
@@ -144,7 +160,10 @@ ul #contato {
 .container-solucoes {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: rgba(216, 216, 216, 1);
+    height: 110vh;
 
     h2 {
         display: flex;
@@ -177,6 +196,8 @@ ul #contato {
             justify-content: space-around;
             margin: 30px;
             width: 30%;
+            box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.6);
+            ;
 
             img {
                 width: 100%;
@@ -203,6 +224,8 @@ ul #contato {
             margin: 30px;
             width: 30%;
             background-color: rgba(255, 255, 255, 1);
+            box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.6);
+
 
             img {
                 width: 100%;
@@ -226,10 +249,12 @@ ul #contato {
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: rgba(255, 255, 255, 1);
             justify-content: space-around;
             margin: 30px;
             width: 30%;
+            background-color: rgba(255, 255, 255, 1);
+            box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.6);
+
 
             img {
                 width: 100%;
@@ -248,6 +273,5 @@ ul #contato {
             }
 
         }
-
-
     }
+}    
