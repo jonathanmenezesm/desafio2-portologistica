@@ -134,6 +134,7 @@ ul #contato {
   display: flex;
   justify-content: center;
   color: blue;
+  margin-top: 10px;
 }
 .container-solucoes h3 {
   display: flex;
@@ -169,7 +170,8 @@ ul #contato {
   justify-content: center;
   flex-direction: column;
   text-align: left;
-  width: 100%;
+  width: 80%;
+  height: 100px;
 }
 .container-solucoes #pics #img2 {
   display: flex;
@@ -191,7 +193,8 @@ ul #contato {
   justify-content: center;
   flex-direction: column;
   text-align: left;
-  width: 100%;
+  width: 80%;
+  height: 100px;
 }
 .container-solucoes #pics #img3 {
   display: flex;
