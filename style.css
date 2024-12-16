@@ -115,6 +115,12 @@ ul a:hover {
   font-size: 1.6rem;
   width: 40vw;
 }
+.container-gestao p a {
+  text-decoration: none;
+}
+.container-gestao p a:hover {
+  text-decoration: underline;
+}
 .container-gestao #contato {
   display: flex;
   margin-top: 35px;
@@ -231,4 +237,71 @@ ul a:hover {
   text-align: left;
   width: 80%;
   height: 100px;
+}
+
+.container-atendimento {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+.container-atendimento h2 {
+  color: rgb(0, 23, 233);
+}
+.container-atendimento .titulos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.container-atendimento .tit-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: oswald;
+}
+.container-atendimento .portos {
+  display: flex;
+  justify-content: space-around;
+}
+.container-atendimento .forms {
+  display: flex;
+  flex-direction: column;
+  font-family: oswald;
+  justify-content: space-evenly;
+  height: 100%;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.container-atendimento .imgs1 {
+  margin: 3%;
+}
+.container-atendimento .imgs2 {
+  margin: 3%;
+}
+.container-atendimento input {
+  width: 15vw;
+  height: 4vh;
+}
+.container-atendimento textarea {
+  width: 15vw;
+  height: 15vh;
+}
+.container-atendimento button {
+  background-color: rgb(0, 23, 233);
+  color: white;
+  width: 15vw;
+  height: 5vh;
+}
+.container-atendimento button:hover {
+  background-color: rgb(33, 55, 255);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(216, 216, 216);
+  height: 30px;
 }/*# sourceMappingURL=style.css.map */

@@ -10,6 +10,7 @@ header {
     h1 {
         font-size: 50px;
     }
+
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -30,20 +31,21 @@ ul {
     li {
         text-decoration: none;
     }
-    
+
     a {
         color: black;
         font-weight: bold;
         text-decoration: none;
         font-size: 20px;
-        
+
     }
+
     a:hover {
         color: black;
         border: solid black 3px;
         padding: 7px;
     }
-    
+
 }
 
 
@@ -88,7 +90,7 @@ ul {
         height: 5vh;
         font-size: 1.3rem;
     }
-    
+
     p:hover {
         text-decoration: underline;
         background-color: rgb(0, 35, 224);
@@ -134,6 +136,15 @@ ul {
         text-align: left;
         font-size: 1.6rem;
         width: 40vw;
+
+        a {
+            text-decoration: none;
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
     }
 
     #contato {
@@ -274,4 +285,82 @@ ul {
 
         }
     }
-}    
+}
+
+.container-atendimento {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+
+    h2 {
+        color: rgba(0, 23, 233, 1);
+    }
+
+    .titulos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+    .tit-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-family: oswald;
+    }
+
+    .portos {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .forms {
+        display: flex;
+        flex-direction: column;
+        font-family: oswald;
+        justify-content: space-evenly;
+        height: 100%;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+
+    .imgs1 {
+        margin: 3%;
+    }
+
+    .imgs2 {
+        margin: 3%;
+    }
+
+    input {
+        width: 15vw;
+        height: 4vh;
+    }
+
+    textarea {
+        width: 15vw;
+        height: 15vh;
+    }
+
+    button {
+        background-color: rgba(0, 23, 233, 1);
+        color: white;
+        width: 15vw;
+        height: 5vh;
+    }
+    button:hover {
+        background-color: rgb(33, 55, 255);
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(216, 216, 216, 1);
+    height: 30px;
+}
